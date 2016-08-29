@@ -1,0 +1,27 @@
+{
+  "name": "mongodb-class",
+  "version": "1.0.0",
+  "description": "A simple tutorial of mongodb",
+  "main": "connect-mongodb.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangzju/mongodb-class.git"
+  },
+  "keywords": [
+    "mongodb",
+    "nodejs"
+  ],
+  "author": "zhangzju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangzju/mongodb-class/issues"
+  },
+  "homepage": "https://github.com/zhangzju/mongodb-class#readme",
+  "dependencies": {
+    "mongodb": "^2.2.9",
+    "mongoose": "^4.5.10"
+  }
+}
