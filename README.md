@@ -1,2 +1,4 @@
-# mongodb-class
-A simple tutorial of mongodb
+# mongogo
+
+Simple mongodb client of MongoDB.
+
