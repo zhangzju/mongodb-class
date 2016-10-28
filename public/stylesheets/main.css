@@ -1,0 +1,21 @@
+body {
+  color: #606c76;
+  font-family: "Roboto","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 1.6em;
+  letter-spacing: .01em;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.container {
+  margin:0 auto;
+  max-width: 112rem;
+  padding: 0 2rem;
+  position: relative;
+  width: 100%;
+}
+
+.headerline {
+  padding-top:10%;
+  padding-left :10%;
+}
