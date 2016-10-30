@@ -5,17 +5,70 @@ body {
   letter-spacing: .01em;
   line-height: 1.6;
   font-weight: 300;
-}
-
-.container {
-  margin:0 auto;
-  max-width: 112rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
   padding: 0 2rem;
-  position: relative;
-  width: 100%;
 }
 
-.headerline {
-  padding-top:10%;
-  padding-left :10%;
+* small {
+  margin-left: 2%;
+  font-weight: 400;
+  line-height: 1;
+  color: #777;
+  font-size: 40%;
+}
+
+h1 {
+  margin: 0;
+  display: block;
+}
+
+a {
+  text-decoration:none;
+  color: blue;
+  text-shadow: 0 0 0 3px grey, 0 0 0 4px black;
+}
+
+a:hover {
+  color: magenta;
+}
+
+header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+
+main {
+  margin:0 auto;
+  width:50%;
+  background: hsla(0, 0%, 100%, .3);
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+}
+
+main blackquote {
+  flex: 1;
+  height: 20%;
+}
+
+main section {
+  height: 20%;
+  background: hsla(0, 0%, 50%, .5);
+}
+
+footer {
+  margin:0 auto;
+  width: 50%;
+  display: flex;
+}
+
+
+footer p {
+  color: white;
+  font-weight: thin;
+  font-size: 80%;
 }
